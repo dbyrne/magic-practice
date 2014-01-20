@@ -17,7 +17,7 @@
   (hash-map "name" (first x) "children" y))
 
 (defn get-map []
-  (hash-map "name" "magic" "children"
+  (hash-map "name" "" "children"
   (map
     (fn [disc-map]
       (mapify
@@ -36,4 +36,4 @@
 
 (defn -main []
   (let [x (get-map)]
-    (json/pprint x)))
+    (spit "magic.json" (json/write-str x))))
