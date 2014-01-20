@@ -1,4 +1,4 @@
-Side Push-off,5302,88:22:00,Cards,Sleight/Move,Second Deal,88,22,0
+Side Push-off,5313,88:33:00,Cards,Sleight/Move,Second Deal,88,33,0
 Classic Palm,3753,62:33:00,Coins,Sleight/Move,Concealments,62,33,0
 Gravity Half Pass,3191,53:11:00,Cards,Sleight/Move,Shifts/Passes,53,11,0
 Roadrunner Cull,3037,50:37:00,Cards,Sleight/Move,Misc,50,37,0
@@ -6,20 +6,21 @@ Top Push-off,2491,41:31:00,Cards,Sleight/Move,Second Deal,41,31,0
 Side Push-off,1626,27:06:00,Cards,Sleight/Move,Double Lift,27,6,0
 Gene Maze Strike,1455,24:15:00,Cards,Sleight/Move,Bottom Deal,24,15,0
 Top Push-off,1260,21:00:00,Cards,Sleight/Move,Double Lift,21,0,0
-Development,1092,18:12:00,Cards,Routine/Trick,Byrne Cards,18,12,0
+Byrne Cards (Dev),1092,18:12:00,Cards,Routine/Trick,Gambling Demonstration,18,12,0
 Pinky Count,1066,17:46:00,Cards,Sleight/Move,Misc,17,46,0
 Faro Shuffle,1008,16:48:00,Cards,Sleight/Move,Shuffles,16,48,0
-Mr. Clean Coins Across,938,15:38:00,Coins,Routine/Trick,Coins Across,15,38,0
+Mr. Clean Coins Across,941,15:41:00,Coins,Routine/Trick,Coins Across,15,41,0
 Push Through Shuffle,830,13:50:00,Cards,Sleight/Move,Shuffles,13,50,0
 Erdnase/Ortiz Grip,789,13:09:00,Cards,Sleight/Move,Bottom Deal,13,9,0
 S.W.E. Shift,783,13:03:00,Cards,Sleight/Move,Shifts/Passes,13,3,0
 Mechanic's Grip,715,11:55:00,Cards,Sleight/Move,Bottom Deal,11,55,0
-Coin Roll,621,10:21:00,Coins,Sleight/Move,Flourish,10,21,0
-Peregrination,486,8:06:00,Coins,Routine/Trick,Coins Across,8,6,0
+Coin Roll,631,10:31:00,Coins,Sleight/Move,Flourish,10,31,0
+Peregrination,487,8:07:00,Coins,Routine/Trick,Coins Across,8,7,0
 Salt and Silver,429,7:09:00,Coins,Routine/Trick,Misc,7,9,0
 Strike,421,7:01:30,Cards,Sleight/Move,Double Lift,7,1,30
 Roth Palm Change,335,5:35:00,Coins,Sleight/Move,Misc,5,35,0
-Slick Splits,308,5:08:00,Coins,Routine/Trick,Misc,5,8,0
+Slick Splits,313,5:13:00,Coins,Routine/Trick,Misc,5,13,0
+Daley's Conformed Twins,302,5:02:00,Cards,Routine/Trick,Packet,5,2,0
 Straddle Pass,292,4:52:00,Cards,Sleight/Move,Shifts/Passes,4,52,0
 Snap Deal,248,4:08:00,Cards,Sleight/Move,Misc,4,8,0
 The Cross,237,3:57:00,Cards,Routine/Trick,Gambling Demonstration,3,57,0
@@ -28,7 +29,6 @@ Eric Jones Retention,223,3:43:00,Coins,Sleight/Move,Vanishes,3,43,0
 Turnover Pass,222,3:42:00,Cards,Sleight/Move,Shifts/Passes,3,42,0
 Goshman Pinch,220,3:40:00,Coins,Sleight/Move,Concealments,3,40,0
 Rapture,210,3:30:00,Cards,Routine/Trick,Misc,3,30,0
-Daley's Conformed Twins,209,3:29:00,Cards,Routine/Trick,Packet,3,29,0
 Hellbound Spellbound,203,3:23:00,Coins,Routine/Trick,Spellbound,3,23,0
 Centerpoint Production,201,3:21:00,Cards,Sleight/Move,Misc,3,21,0
 Extreme Burn,194,3:14:00,Money,Routine/Trick,Misc,3,14,0
@@ -38,17 +38,17 @@ Metal Spellbound,149,2:29:00,Coins,Routine/Trick,Spellbound,2,29,0
 Flying Shuttle Pass,145,2:25:00,Coins,Sleight/Move,Misc,2,25,0
 Roth's Hanging Coins,133,2:13:00,Coins,Routine/Trick,Hanging Coins,2,13,0
 Wiped Clean,131,2:11:00,Coins,Sleight/Move,Handwashing,2,11,0
-Dean Dill's No Extras,126,2:06:00,Coins,Routine/Trick,Matrix,2,6,0
+Dean Dill's No Extras,131,2:11:00,Coins,Routine/Trick,Matrix,2,11,0
 One Handed,121,2:01:00,Cards,Sleight/Move,Second Deal,2,1,0
 One Handed Hop,120,2:00:00,Cards,Sleight/Move,Bluff Passes,2,0,0
-Giovanni Livera Click Pass,105,1:45:00,Coins,Sleight/Move,Click Passes,1,45,0
-Muscle Pass,103,1:43:00,Coins,Sleight/Move,Flourish,1,43,0
+Muscle Pass,109,1:49:00,Coins,Sleight/Move,Flourish,1,49,0
+Giovanni Livera Click Pass,108,1:48:00,Coins,Sleight/Move,Click Passes,1,48,0
 Rotor,95,1:35:00,Cards,Sleight/Move,Double Lift,1,35,0
 Elmsley/Ghost Count,81,1:21:00,Cards,Sleight/Move,False Counts,1,21,0
 Joe Berg Top Palm,73,1:13:00,Cards,Sleight/Move,Palm Techniques,1,13,0
+Byrne Cards (practice),67,1:07:00,Cards,Routine/Trick,Gambling Demonstration,1,7,0
 El Cambio Nada,65,1:05:00,Cards,Sleight/Move,Color Changes,1,5,0
 Overhand Shuffle,61,1:01:00,Cards,Sleight/Move,Shuffles,1,1,0
-Practice,61,1:01:00,Cards,Routine/Trick,Byrne Cards,1,1,0
 Jones C/S,61,1:01:00,Coins,Routine/Trick,Misc,1,1,0
 Misdirection Palm,60,1:00:00,Cards,Sleight/Move,Palm Techniques,1,0,0
 De'Ring,60,1:00:00,Ring,Routine/Trick,Misc,1,0,0
