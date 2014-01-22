@@ -9,23 +9,23 @@ Top Push-off,1260,21:00:00,Cards,Sleight/Move,Double Lift,21,0,0
 Byrne Cards (Dev),1092,18:12:00,Cards,Routine/Trick,Gambling Demonstration,18,12,0
 Pinky Count,1066,17:46:00,Cards,Sleight/Move,Misc,17,46,0
 Faro Shuffle,1008,16:48:00,Cards,Sleight/Move,Shuffles,16,48,0
-Mr. Clean Coins Across,941,15:41:00,Coins,Routine/Trick,Coins Across,15,41,0
+Mr. Clean Coins Across,957,15:57:00,Coins,Routine/Trick,Coins Across,15,57,0
 Push Through Shuffle,830,13:50:00,Cards,Sleight/Move,Shuffles,13,50,0
 Erdnase/Ortiz Grip,789,13:09:00,Cards,Sleight/Move,Bottom Deal,13,9,0
 S.W.E. Shift,783,13:03:00,Cards,Sleight/Move,Shifts/Passes,13,3,0
 Mechanic's Grip,715,11:55:00,Cards,Sleight/Move,Bottom Deal,11,55,0
-Coin Roll,631,10:31:00,Coins,Sleight/Move,Flourish,10,31,0
+Coin Roll,646,10:46:00,Coins,Sleight/Move,Flourish,10,46,0
+Daley's Conformed Twins,505,8:25:00,Cards,Routine/Trick,Packet,8,25,0
 Peregrination,487,8:07:00,Coins,Routine/Trick,Coins Across,8,7,0
-Salt and Silver,429,7:09:00,Coins,Routine/Trick,Misc,7,9,0
+Salt and Silver,434,7:14:00,Coins,Routine/Trick,Misc,7,14,0
 Strike,421,7:01:30,Cards,Sleight/Move,Double Lift,7,1,30
 Roth Palm Change,335,5:35:00,Coins,Sleight/Move,Misc,5,35,0
 Slick Splits,313,5:13:00,Coins,Routine/Trick,Misc,5,13,0
-Daley's Conformed Twins,302,5:02:00,Cards,Routine/Trick,Packet,5,2,0
 Straddle Pass,292,4:52:00,Cards,Sleight/Move,Shifts/Passes,4,52,0
 Snap Deal,248,4:08:00,Cards,Sleight/Move,Misc,4,8,0
 The Cross,237,3:57:00,Cards,Routine/Trick,Gambling Demonstration,3,57,0
 Classic Pass,230,3:50:00,Cards,Sleight/Move,Shifts/Passes,3,50,0
-Eric Jones Retention,223,3:43:00,Coins,Sleight/Move,Vanishes,3,43,0
+Jones/Rubinstein Retention,230,3:50:00,Coins,Sleight/Move,Vanishes,3,50,0
 Turnover Pass,222,3:42:00,Cards,Sleight/Move,Shifts/Passes,3,42,0
 Goshman Pinch,220,3:40:00,Coins,Sleight/Move,Concealments,3,40,0
 Rapture,210,3:30:00,Cards,Routine/Trick,Misc,3,30,0
@@ -35,19 +35,21 @@ Extreme Burn,194,3:14:00,Money,Routine/Trick,Misc,3,14,0
 Strike,178,2:58:00,Cards,Sleight/Move,Second Deal,2,58,0
 Heinstein Shuffle,169,2:49:00,Cards,Sleight/Move,Shuffles,2,49,0
 Metal Spellbound,149,2:29:00,Coins,Routine/Trick,Spellbound,2,29,0
+Muscle Pass,149,2:29:00,Coins,Sleight/Move,Flourish,2,29,0
 Flying Shuttle Pass,145,2:25:00,Coins,Sleight/Move,Misc,2,25,0
+Dean Dill's No Extras,137,2:17:00,Coins,Routine/Trick,Matrix,2,17,0
 Roth's Hanging Coins,133,2:13:00,Coins,Routine/Trick,Hanging Coins,2,13,0
 Wiped Clean,131,2:11:00,Coins,Sleight/Move,Handwashing,2,11,0
-Dean Dill's No Extras,131,2:11:00,Coins,Routine/Trick,Matrix,2,11,0
 One Handed,121,2:01:00,Cards,Sleight/Move,Second Deal,2,1,0
 One Handed Hop,120,2:00:00,Cards,Sleight/Move,Bluff Passes,2,0,0
-Muscle Pass,109,1:49:00,Coins,Sleight/Move,Flourish,1,49,0
 Giovanni Livera Click Pass,108,1:48:00,Coins,Sleight/Move,Click Passes,1,48,0
+DM Count,98,1:38:00,Cards,Sleight/Move,False Counts,1,38,0
 Rotor,95,1:35:00,Cards,Sleight/Move,Double Lift,1,35,0
 Elmsley/Ghost Count,81,1:21:00,Cards,Sleight/Move,False Counts,1,21,0
 Joe Berg Top Palm,73,1:13:00,Cards,Sleight/Move,Palm Techniques,1,13,0
 Byrne Cards (practice),67,1:07:00,Cards,Routine/Trick,Gambling Demonstration,1,7,0
 El Cambio Nada,65,1:05:00,Cards,Sleight/Move,Color Changes,1,5,0
+Gemini Count,62,1:02:00,Cards,Sleight/Move,Double Lift,1,2,0
 Overhand Shuffle,61,1:01:00,Cards,Sleight/Move,Shuffles,1,1,0
 Jones C/S,61,1:01:00,Coins,Routine/Trick,Misc,1,1,0
 Misdirection Palm,60,1:00:00,Cards,Sleight/Move,Palm Techniques,1,0,0
@@ -70,20 +72,20 @@ Ambitious Card Routine,30,0:30:00,Cards,Routine/Trick,Misc,0,30,0
 The Pop,30,0:30:00,Coins,Sleight/Move,Productions,0,30,0
 Chris Korn Retention,27,0:27:00,Coins,Sleight/Move,Vanishes,0,27,0
 Jones Click Pass,24,0:24:00,Coins,Sleight/Move,Click Passes,0,24,0
+Fingertip Muscle Pass,23,0:23:00,Coins,Sleight/Move,Flourish,0,23,0
 Vernon New Theory,21,0:21:00,Cards,Sleight/Move,Second Deal,0,21,0
 Choosy Choice,21,0:21:00,Cards,Routine/Trick,Misc,0,21,0
 Classic Palm Click Pass,21,0:21:00,Coins,Sleight/Move,Click Passes,0,21,0
-Revolution #9,20,0:20:00,Cards,Routine/Trick,Aaron Fisher,0,20,0
-Fingertip Muscle Pass,20,0:20:00,Coins,Sleight/Move,Flourish,0,20,0
+Revolution #9,20,0:20:00,Cards,Routine/Trick,Misc,0,20,0
 Biddle Count ,19,0:19:00,Cards,Sleight/Move,False Counts,0,19,0
 Loose Change,19,0:19:00,Coins,Routine/Trick,Misc,0,19,0
 Estimaces,18,0:18:00,Cards,Routine/Trick,Misc,0,18,0
+Eric Jones Stylized Retention,16,0:16:00,Coins,Sleight/Move,Vanishes,0,16,0
 Watching the Detectives,15,0:15:00,Cards,Routine/Trick,Misc,0,15,0
 Crimpless Control,13,0:13:00,Cards,Sleight/Move,Bluff Passes,0,13,0
 Riffle Stacking,12,0:12:00,Cards,Sleight/Move,Shuffles,0,12,0
 Silver Lining Production,12,0:12:00,Coins,Sleight/Move,Misc,0,12,0
 Bertram Change,11,0:11:00,Cards,Sleight/Move,Color Changes,0,11,0
-Eric Jones Stylized Retention,11,0:11:00,Coins,Sleight/Move,Vanishes,0,11,0
 Ambitious Swivel Cut,10,0:10:00,Cards,Sleight/Move,Bluff Passes,0,10,0
 Roth Coins Across,9,0:09:00,Coins,Routine/Trick,Coins Across,0,9,0
 Erdnase Color Change,8,0:08:00,Cards,Sleight/Move,Color Changes,0,8,0
@@ -91,12 +93,12 @@ Bizarre Twist,8,0:08:00,Cards,Sleight/Move,Color Changes,0,8,0
 Speed Fly,8,0:08:00,Coins,Routine/Trick,Three Fly,0,8,0
 Long Distance Spinner,6,0:06:00,Cards,Sleight/Move,Flourish,0,6,0
 Himber Vanish,6,0:06:00,Coins,Sleight/Move,Vanishes,0,6,0
+Retention Open Palm Steal,6,0:06:00,Coins,Sleight/Move,Vanishes,0,6,0
 Tamariz Stack,5,0:05:00,Cards,Sleight/Move,Misc,0,5,0
 Horizontal Open Triumph,5,0:05:00,Cards,Routine/Trick,Misc,0,5,0
 Lynel Vanish,5,0:05:00,Coins,Sleight/Move,Vanishes,0,5,0
 Up and Over Vanish,5,0:05:00,Coins,Sleight/Move,Vanishes,0,5,0
 Top Push-off Triple,4,0:04:00,Cards,Sleight/Move,Double Lift,0,4,0
-Retention Open Palm Steal,4,0:04:00,Coins,Sleight/Move,Vanishes,0,4,0
 Coincussed,4,0:04:00,Coins,Routine/Trick,Hanging Coins,0,4,0
 Coin Butterfly,3,0:03:00,Coins,Sleight/Move,Flourish,0,3,0
 Neo Matrix,3,0:03:00,Coins,Routine/Trick,Matrix,0,3,0
