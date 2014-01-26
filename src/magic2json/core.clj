@@ -22,18 +22,17 @@
     (fn [disc-map]
       (mapify
         disc-map
-	(if (> (count (last disc-map)) 1)
-          (map
-            (fn [type-map]
-              (mapify
-                type-map
-	        (if (> (count (last type-map)) 1)
-                  (map #(hash-map "name" (first %) "children" (last %)) (last type-map))
-                  (last type-map))))
-            (last disc-map))
-          (map #(hash-map "name" (first %) "children" (last %)) (last disc-map)))))
+        (map
+          (fn [type-map]
+            (mapify
+              type-map
+	      (if (> (count (last type-map)) 1)
+                (map #(hash-map "name" (first %) "children" (last %)) (last type-map))
+                (last type-map))))
+          (last disc-map))))
     (reduce parse-row {} (parse-csv (slurp "practice.csv"))))))
 
 (defn -main []
   (let [x (get-map)]
+    ; (json/pprint x)))
     (spit "magic.json" (json/write-str x))))
