@@ -12,13 +12,127 @@ text {
   font-size: 14px;
 }
 
+.tooltip, .tooltip-pending-removal {
+  position: absolute;
+  background-color: rgba(255,255,255,1);
+  padding: 10px;
+  border: 1px solid #ddd;
+  z-index: 10000;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 13px;
+  border-radius: 10px;
+
+  pointer-events: none;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.tooltip {
+
+  transition: opacity 500ms linear;
+  -webkit-transition: opacity 500ms linear;
+
+  transition-delay: 500ms;
+  -webkit-transition-delay: 500ms;
+
+  -moz-box-shadow: 4px 4px 8px rgba(0,0,0,.5);
+  -webkit-box-shadow: 4px 4px 8px rgba(0,0,0,.5);
+  box-shadow: 4px 4px 8px rgba(0,0,0,.5);
+
+}
+
 </style>
 <body>
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
 
-var width = 1500,
-    height = 1500,
+/*****
+ * A no frills tooltip implementation.
+ *****/
+
+(function() {
+
+  var tooltip = window.tooltip = {}
+
+  tooltip.show = function(pos, content, gravity, dist, parentContainer, classes) {
+
+    var container = d3.select('body').selectAll('.tooltip').data([1])
+
+        container.enter().append('div').attr('class', 'tooltip ' + (classes ? classes : 'xy-tooltip'))
+
+        container.html(content)
+
+    gravity = gravity || 'n'
+    dist = dist || 20
+
+    var body = document.getElementsByTagName('body')[0]
+
+    var height = parseInt(container[0][0].offsetHeight)
+      , width = parseInt(container[0][0].offsetWidth)
+      , windowWidth = window.innerWidth
+      , windowHeight = window.innerHeight
+      , scrollTop = body.scrollTop
+      , scrollLeft = body.scrollLeft
+      , left = 0
+      , top = 0
+
+
+    switch (gravity) {
+      case 'e':
+        left = pos[0] - width - dist
+        top = pos[1] - (height / 2)
+        if (left < scrollLeft) left = pos[0] + dist
+        if (top < scrollTop) top = scrollTop + 5
+        if (top + height > scrollTop + windowHeight) top = scrollTop - height - 5
+        break
+      case 'w':
+        left = pos[0] + dist
+        top = pos[1] - (height / 2)
+        if (left + width > windowWidth) left = pos[0] - width - dist
+        if (top < scrollTop) top = scrollTop + 5
+        if (top + height > scrollTop + windowHeight) top = scrollTop - height - 5
+        break
+      case 's':
+        left = pos[0] - (width / 2)
+        top = pos[1] + dist
+        if (left < scrollLeft) left = scrollLeft + 5
+        if (left + width > windowWidth) left = windowWidth - width - 5
+        if (top + height > scrollTop + windowHeight) top = pos[1] - height - dist
+        break
+      case 'n':
+        left = pos[0] - (width / 2)
+        top = pos[1] - height - dist
+        if (left < scrollLeft) left = scrollLeft + 5
+        if (left + width > windowWidth) left = windowWidth - width - 5
+        if (scrollTop > top) top = pos[1] + 20
+        break
+    }
+
+
+    container.style('left', left+'px')
+    container.style('top', top+'px')
+
+    return container
+  }
+
+  tooltip.cleanup = function() {
+      // Find the tooltips, mark them for removal by this class (so other tooltip functions won't find it)
+      var tooltips = d3.selectAll('.tooltip').attr('class','tooltip-pending-removal').transition().duration(250).style('opacity',0).remove()
+
+  }
+})()
+
+var colorMap = {};
+colorMap["Cards"] = "#B43104";
+colorMap["Coins"] = "#5858FA";
+colorMap["Rubberbands"] = "#58FA58";
+colorMap["Sleight"] = "#58D3F7";
+colorMap["Trick"] = "#DA81F5";
+
+var width = 1000,
+    height = 1000,
     radius = Math.min(width, height) / 2.5;
 
 var x = d3.scale.linear()
@@ -27,7 +141,15 @@ var x = d3.scale.linear()
 var y = d3.scale.linear()
     .range([0, radius]);
 
-var color = d3.scale.category20c();
+var defaultColors = d3.scale.category20b();
+
+function color(name) {
+  if (colorMap[name] == null) {
+    return defaultColors(name);
+  } else {
+    return colorMap[name];
+  }
+}
 
 var svg = d3.select("body").append("svg")
     .attr("width", width)
@@ -52,6 +174,12 @@ d3.json("magic.json", function(error, root) {
   var path = g.append("path")
     .attr("d", arc)
     .style("fill", function(d) { return color((d.children ? d : d.parent).name); })
+    .on("mouseover", function(d) {  
+    tooltip.show([d3.event.clientX,d3.event.clientY],'<div>'+(d.value/60).toFixed(2) + " hours"+'</div>')
+    })  
+    .on('mouseout',function(){  
+    tooltip.cleanup()
+    })   
     .on("click", click);
 
   var text = g.append("text")
@@ -60,6 +188,12 @@ d3.json("magic.json", function(error, root) {
     .attr("x", function(d) { return y(d.y); })
     .attr("dx", "6") // margin
     .attr("display", 'block')
+    .on("mouseover", function(d) {  
+    tooltip.show([d3.event.clientX,d3.event.clientY],'<div>'+(d.value/60).toFixed(2) + " hours"+'</div>')
+    })  
+    .on('mouseout',function(){  
+    tooltip.cleanup()
+    })   
     .text(function(d) {
     return d.name;
     }).on("click", click);
